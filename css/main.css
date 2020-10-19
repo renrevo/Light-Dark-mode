@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --color-light: #fff;
+  --color-dark: #000;
+  --color-primary: #0080FF;
+  --foreground: var(--color-dark);
+  --background: var(--color-light);
+}
+
+.darkmode {
+  --foreground: var(--color-light);
+  --background: var(--color-dark);
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.dark-mode-toggle {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  background-color: var(--background);
+  border-radius: .5rem;
+  border: 2px solid transparent;
+}
+
+.dark-mode-toggle i {
+  font-size: 1.5rem;
+  color: var(--foreground);
+}
+
+.dark-mode-toggle:hover {
+  border: 2px solid #e0e0e0;
+}
+
+.section {
+  height: 80vh;
+  padding: 8rem;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+/*# sourceMappingURL=main.css.map */
